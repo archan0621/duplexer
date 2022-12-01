@@ -11,6 +11,8 @@ struct status{
     int dup_status;
     /* ping to opponent duplexer through HA */
     int ha_status;
+    /* Check VIP interface */
+    int vip_status;
 };
 
 typedef struct _context {
